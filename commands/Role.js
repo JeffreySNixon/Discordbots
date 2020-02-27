@@ -26,7 +26,7 @@ class Role extends Command {
                 message.member.addRole('669963991434526745')
                 .then(message.delete(5000))
                 .then(console.log('Added MonsterHunter role'))
-                .then(message.send('Role Added'))
+                .then(message.reply('Role Added'))
                 .then(message.delete(10000))
                 .catch(console.error);
         
