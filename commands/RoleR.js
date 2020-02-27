@@ -93,28 +93,28 @@ class RoleR extends Command {
             
                 break;
             case 'WoW':
-                message.member.addRole('682466541916520460')
+                message.member.removeRole('682466541916520460')
                 .then(console.log('Removed MonsterHunter role'))
                 .then(message.reply('Role Removed'))
                 .catch(console.error);
         
                 break;
             case 'WoWClassic':
-                message.member.addRole('682466564192469022')
+                message.member.removeRole('682466564192469022')
                 .then(console.log('Removed MonsterHunter role'))
                 .then(message.reply('Role Removed'))
                 .catch(console.error);
         
                 break;
             case 'Destiny2':
-                message.member.addRole('682466583875944448')
+                message.member.removeRole('682466583875944448')
                 .then(console.log('Removed MonsterHunter role'))
                 .then(message.reply('Role Removed'))
                 .catch(console.error);
         
                 break;
             case 'Civ6':
-                message.member.addRole('682466519195844638')
+                message.member.removeRole('682466519195844638')
                 .then(console.log('Removed MonsterHunter role'))
                 .then(message.reply('Role Removed'))
                 .catch(console.error);
