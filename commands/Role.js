@@ -24,8 +24,10 @@ class Role extends Command {
             //Switch case for each role
             case 'MonsterHunter':
                 message.member.addRole('669963991434526745')
+                .then(message.delete())
                 .then(console.log('Added MonsterHunter role'))
-                .then(message.reply('Role Added'))
+                .then(message.send('Role Added'))
+                .then(message.delete())
                 .catch(console.error);
         
                 break;
