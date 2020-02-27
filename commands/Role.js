@@ -7,7 +7,7 @@ class Role extends Command {
                     {
                      id: 'role',
                      //Roles list
-                     type: ['MonsterHunter', 'LOL','Division2','Satisfactory','Minecraft','CallOfDuty','SoloGames','Terraria','Apex','PUBG'],
+                     type: ['MonsterHunter', 'LOL','Division2','Satisfactory','Minecraft','CallOfDuty','SoloGames','Terraria','Apex','PUBG','WOW','WOWClassic','Civ6','Destiny 2'],
                      //Probably poor error handling
                      default: 'Error'
                 
@@ -91,6 +91,34 @@ class Role extends Command {
                 .then(message.reply('Role Added'))
                 .catch(console.error);
             
+                break;
+            case 'WOW':
+                message.member.addRole('669963991434526745')
+                .then(console.log('Added MonsterHunter role'))
+                .then(message.reply('Role Added'))
+                .catch(console.error);
+        
+                break;
+            case 'WOWClassic':
+                message.member.addRole('669963991434526745')
+                .then(console.log('Added MonsterHunter role'))
+                .then(message.reply('Role Added'))
+                .catch(console.error);
+        
+                break;
+            case 'Destiny2':
+                message.member.addRole('669963991434526745')
+                .then(console.log('Added MonsterHunter role'))
+                .then(message.reply('Role Added'))
+                .catch(console.error);
+        
+                break;
+            case 'Civ6':
+                message.member.addRole('669963991434526745')
+                .then(console.log('Added MonsterHunter role'))
+                .then(message.reply('Role Added'))
+                .catch(console.error);
+        
                 break;    
             case 'Error':
                 message.reply('Error has occured')
