@@ -92,14 +92,14 @@ class Role extends Command {
                 .catch(console.error);
             
                 break;
-            case 'WOW':
+            case 'WoW':
                 message.member.addRole('682466541916520460')
                 .then(console.log('Added MonsterHunter role'))
                 .then(message.reply('Role Added'))
                 .catch(console.error);
         
                 break;
-            case 'WOWClassic':
+            case 'WoWClassic':
                 message.member.addRole('682466564192469022')
                 .then(console.log('Added MonsterHunter role'))
                 .then(message.reply('Role Added'))
