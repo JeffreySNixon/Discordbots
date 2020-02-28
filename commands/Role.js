@@ -7,7 +7,7 @@ class Role extends Command {
                     {
                      id: 'role',
                      //Roles list
-                     type: ['MonsterHunter', 'LOL','Division2','Satisfactory','Minecraft','CallOfDuty','SoloGames','Terraria','Apex','PUBG','WoW','WoWClassic','Civ6','Destiny 2'],
+                     type: ['MonsterHunter', 'LOL','Division2','Satisfactory','Minecraft','CallOfDuty','SoloGames','Terraria','Apex','PUBG','WoW','WoWClassic','Civ6','Destiny2'],
                      //Probably poor error handling
                      default: 'Error'
                 
