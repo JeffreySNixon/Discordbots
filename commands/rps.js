@@ -8,7 +8,7 @@ class rps extends Command {
                     {
                      id: 'rps',
                      //Roles list
-                     type: ['rock','paper','scissor'],
+                     type: ['rock','paper','scissor','scissors','Rock','Paper','Scissor','Scissors'],
                      //Probably poor error handling
                      default: 'Error'
                 
