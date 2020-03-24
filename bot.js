@@ -9,6 +9,14 @@ const client = new AkairoClient(
     }
 );
 
+client.on('message',(message)=> {
+    if(message.author.bot) return;
+
+    if(message.content == 'Bob'){
+        message.reply("Well Bob's your uncle");
+    }
+})
+
 client.on('ready', () => {
 console.log('Logged in');
 })
