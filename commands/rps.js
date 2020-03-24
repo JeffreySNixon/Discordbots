@@ -34,16 +34,17 @@ class rps extends Command {
             choi = 'scissor';
             break;
         }
-        if(args.rps === 'error'){
-            message.reply('Try again! Errored!')
-            return;
-        } 
+        
         if(choi === args.rps){
             message.reply('We tied! I chose '+choi)
         }
         else if(choi === 'rock' && args.rps == 'scissor' || choi === 'scissor' && args.rps == 'paper' || choi === 'paper' && args.rps == 'rock'){
             message.reply('You lost! I chose '+choi)
         }
+        else if(args.rps === 'Error'){
+            message.reply('Try again! Errored!')
+            return;
+        } 
         else{
             message.reply('You won! I chose '+choi)
         }
